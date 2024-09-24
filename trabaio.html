@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <script>
+        function enviar(){
+            a = document.getElementById("num1").value;
+            b = document.getElementById("num2").value;
+            c = document.getElementById("num3").value;
+            if (a>b && a>c){
+                alert("O maior valor é " + a);
+            }
+            if (b>a && b>c){
+                alert("O maior valor é " + b);
+            }
+            if (c>a && c>b) {
+                alert("O maior valor é " + c);
+            }
+            else{
+                alert("Todos os valores são iguais");	
+            }
+        }
+       </script>
+       <title>Saber o maior</title>
+       <input id="num1" name="num1" type="number"></br>
+       <input id="num2" name="num2" type="number"></br>
+       <input id="num3" name="num3" type="number">
+       <button onclick="enviar()">Confirmar</button>
+   
+</body> 
+
+</html>
+
+
+//  feito por Gustavo Lima de Lima e Thiago Azevedo de Araujo (Segundo semestre ciência da computação, unama- Alcindo Cacela)
